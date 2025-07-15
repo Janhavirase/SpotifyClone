@@ -144,7 +144,7 @@ return songs;
 
 async function main(){
     //get list of all songs
-   await getSongs("songs/superhits")
+   await getSongs("/songs/superhits")
    playMusic(songs[0],true)
    
 //display all the albums on the songs
